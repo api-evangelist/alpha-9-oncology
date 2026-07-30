@@ -1,22 +1,70 @@
 aid: alpha-9-oncology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-9-oncology.png
 name: Alpha-9 Oncology
-description: 'Alpha-9 Oncology is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Alpha-9 Oncology is a clinical-stage radiopharmaceutical company that
+  spun out of the University of British Columbia and BC Cancer in 2019 to develop
+  a portfolio of targeted cancer therapies. Alpha-9 engineers bespoke radiopharmaceutical
+  molecules — optimizing the binder, linker, chelator, and radioisotope — to deliver
+  radiation directly to tumor cells while limiting exposure to healthy tissue. The
+  company operates purpose-built research facilities in Vancouver, BC and Boston,
+  MA, and in October 2024 raised an oversubscribed $175M Series C led by Lightspeed
+  Venture Partners and Ascenta Capital to advance its clinical pipeline. Alpha-9 is
+  a drug developer and does not currently publish a public developer API; this profile
+  captures its company identity and public-web surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/alpha-9-oncology/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Healthcare
+- Oncology
+- Radiopharmaceuticals
+- Biotechnology
+- Cancer Therapy
+- Clinical Stage
+- Drug Development
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alpha-9-oncology-domain-security.yml
+- type: Website
+  url: https://www.a9oncology.com/
+- type: Blog
+  name: News & Events
+  url: https://www.a9oncology.com/news/
+- type: Support
+  name: Contact
+  url: https://www.a9oncology.com/contact/
+- type: PrivacyPolicy
+  url: https://www.a9oncology.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.a9oncology.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alpha9tx/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
