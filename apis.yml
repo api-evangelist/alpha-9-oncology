@@ -12,16 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-9-oncology.png
 name: Alpha-9 Oncology
-description: 'Alpha-9 Oncology is a clinical-stage radiopharmaceutical company that
-  spun out of the University of British Columbia and BC Cancer in 2019 to develop
-  a portfolio of targeted cancer therapies. Alpha-9 engineers bespoke radiopharmaceutical
-  molecules — optimizing the binder, linker, chelator, and radioisotope — to deliver
-  radiation directly to tumor cells while limiting exposure to healthy tissue. The
-  company operates purpose-built research facilities in Vancouver, BC and Boston,
-  MA, and in October 2024 raised an oversubscribed $175M Series C led by Lightspeed
-  Venture Partners and Ascenta Capital to advance its clinical pipeline. Alpha-9 is
-  a drug developer and does not currently publish a public developer API; this profile
-  captures its company identity and public-web surface for the API Evangelist network.'
+description: Alpha-9 Oncology is a clinical-stage radiopharmaceutical company that spun out of the University
+  of British Columbia and BC Cancer in 2019 to develop a portfolio of targeted cancer therapies. Alpha-9
+  engineers bespoke radiopharmaceutical molecules — optimizing the binder, linker, chelator, and radioisotope
+  — to deliver radiation directly to tumor cells while limiting exposure to healthy tissue. The company
+  operates purpose-built research facilities in Vancouver, BC and Boston, MA, and in October 2024 raised
+  an oversubscribed $175M Series C led by Lightspeed Venture Partners and Ascenta Capital to advance its
+  clinical pipeline. Alpha-9 is a drug developer and does not currently publish a public developer API;
+  this profile captures its company identity and public-web surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/alpha-9-oncology/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -58,6 +56,10 @@ common:
   url: https://www.a9oncology.com/terms-of-use/
 - type: LinkedIn
   url: https://www.linkedin.com/company/alpha9tx/
+- type: Website
+  url: https://a9oncology.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alpha9tx
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
